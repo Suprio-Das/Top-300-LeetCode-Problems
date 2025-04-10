@@ -11,5 +11,5 @@ In this repository I will keep the top 300 LeetCode problems that I have solved 
 #### 🟢 Problem 01: [Moving Zeroes](https://leetcode.com/problems/move-zeroes/)
 **Description:**  
 Given an integer array `nums`, move all `0`'s to the end while maintaining the relative order of the non-zero elements.  
-You must do this **in-place** without making a copy of the array.
+**Note:** You must do this **in-place** without making a copy of the array.
 
