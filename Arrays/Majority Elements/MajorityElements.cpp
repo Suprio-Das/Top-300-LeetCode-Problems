@@ -1,22 +1,21 @@
-class Solution
-{
+class Solution {
 public:
-    int majorityElement(vector<int> &nums)
-    {
-        int n = nums.size();
+    int majorityElement(vector<int>& nums) {
         int count = 0;
-        vector<int> checked;
+        int result = nums[0];
 
-        for (int i = 0; i < n - 1; i++)
-        {
-            for (int j = 0; j < n - i - 1; j++)
-            {
-                if (nums[i] == nums[j + 1])
-                {
-                    count++;
-                }
+        for(int i = 0; i < nums.size(); i++) {
+            if(count == 0) {
+                result = nums[i]; 
             }
-            checked.push_back(nums[i]);
+
+            if(nums[i] == result) {
+                count++; 
+            } else {
+                count--; 
+            }
         }
+
+        return result;
     }
 };
