@@ -16,6 +16,7 @@ public:
                     count++;
                 }
             }
+            checked.push_back(nums[i]);
         }
     }
 };
