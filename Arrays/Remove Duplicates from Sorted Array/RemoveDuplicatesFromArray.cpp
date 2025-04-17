@@ -7,5 +7,8 @@ public:
         temp.push_back(nums[0]);
         int pointer_left = 0;
         int pointer_right = 1;
+        while (pointer_right < nums.size())
+        {
+        }
     }
 };
