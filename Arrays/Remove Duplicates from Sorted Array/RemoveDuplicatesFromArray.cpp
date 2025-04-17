@@ -15,6 +15,11 @@ public:
                 pointer_left += 1;
                 pointer_right += 1;
             }
+            else
+            {
+                pointer_left = pointer_right;
+                pointer_right += 1;
+            }
         }
     }
 };
