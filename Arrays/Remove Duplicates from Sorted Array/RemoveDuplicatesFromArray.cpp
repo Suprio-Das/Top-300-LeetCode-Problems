@@ -21,5 +21,7 @@ public:
                 pointer_right += 1;
             }
         }
+
+        nums = temp;
     }
 };
