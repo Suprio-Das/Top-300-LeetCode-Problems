@@ -23,5 +23,7 @@ public:
         }
 
         nums = temp;
+
+        return nums.size();
     }
 };
