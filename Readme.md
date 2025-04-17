@@ -17,7 +17,7 @@ Given an integer array `nums`, move all `0`'s to the end while maintaining the r
 **Description:**  
 Given an array `nums` of size `n`, return the majority element. <br>
 The majority element is the element that appears more than `⌊n / 2⌋` times. You may assume that the majority element always exists in the array. <br>
-Follow-up: Could you solve the problem in linear time and in ``O(1) space? <br>
+Follow-up: Could you solve the problem in linear time and in `O(1)` space? <br>
 `This problem is solved by Boyer-Moore voting algorithm`
 
 #### 🟢 Problem 03: [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
