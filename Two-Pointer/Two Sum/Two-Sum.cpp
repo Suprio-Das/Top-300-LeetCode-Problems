@@ -17,6 +17,10 @@ public:
             {
                 pointer_right--;
             }
+            else
+            {
+                pointer_left++;
+            }
         }
 
         return {};
