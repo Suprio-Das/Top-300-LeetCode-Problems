@@ -22,10 +22,7 @@ Follow-up: Could you solve the problem in linear time and in ``O(1) space? <br>
 
 #### 🟢 Problem 03: [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 **Description:**  
-Given an array `nums` of size `n`, return the majority element. <br>
-The majority element is the element that appears more than `⌊n / 2⌋` times. You may assume that the majority element always exists in the array. <br>
-Follow-up: Could you solve the problem in linear time and in ``O(1) space? <br>
-`This problem is solved by Boyer-Moore voting algorithm`
+Given an integer array `nums` sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in `nums`.
 
 ---
 
