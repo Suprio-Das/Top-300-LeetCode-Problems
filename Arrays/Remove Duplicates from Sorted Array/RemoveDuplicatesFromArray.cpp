@@ -9,6 +9,9 @@ public:
         int pointer_right = 1;
         while (pointer_right < nums.size())
         {
+            if (nums[pointer_left] < nums[pointer_right])
+            {
+            }
         }
     }
 };
