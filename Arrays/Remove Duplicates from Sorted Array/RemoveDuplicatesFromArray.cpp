@@ -11,6 +11,7 @@ public:
         {
             if (nums[pointer_left] < nums[pointer_right])
             {
+                temp.push_back(nums[pointer_right]);
             }
         }
     }
