@@ -11,7 +11,7 @@ public:
         {
             if (prices[pointer_left] < prices[pointer_right])
             {
-                        }
+            }
         }
     }
 };
