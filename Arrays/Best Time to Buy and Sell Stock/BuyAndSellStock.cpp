@@ -9,6 +9,9 @@ public:
         int curr_profit = 0;
         while (pointer_right < prices.size())
         {
-                }
+            if (prices[pointer_left] < prices[pointer_right])
+            {
+                        }
+        }
     }
 };
