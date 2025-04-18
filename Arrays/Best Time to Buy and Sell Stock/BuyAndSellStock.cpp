@@ -7,5 +7,8 @@ public:
         int pointer_left = 0;
         int pointer_right = 1;
         int curr_profit = 0;
+        while (pointer_right < prices.size())
+        {
+                }
     }
 };
