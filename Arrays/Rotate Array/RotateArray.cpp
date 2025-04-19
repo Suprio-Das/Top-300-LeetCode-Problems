@@ -6,5 +6,9 @@ public:
         vector<int> temp;
         int size = nums.size();
         k = k % size;
+
+        for (int i = size - k; i < size; i++)
+        {
+        }
     }
 };
