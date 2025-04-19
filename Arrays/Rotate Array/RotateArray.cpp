@@ -9,6 +9,7 @@ public:
 
         for (int i = size - k; i < size; i++)
         {
+            temp.push_back(nums[i]);
         }
     }
 };
