@@ -23,6 +23,11 @@ public:
                 pointer_left = pointer_right;
                 pointer_right++;
             }
+            else
+            {
+                pointer_left = pointer_right;
+                pointer_right++;
+            }
         }
     }
 };
