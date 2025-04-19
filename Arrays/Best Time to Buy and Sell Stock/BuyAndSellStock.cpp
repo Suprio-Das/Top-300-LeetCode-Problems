@@ -20,7 +20,9 @@ public:
             }
             else if (prices[pointer_left] > prices[pointer_right])
             {
-                        }
+                pointer_left = pointer_right;
+                pointer_right++;
+            }
         }
     }
 };
