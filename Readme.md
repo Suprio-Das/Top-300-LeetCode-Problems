@@ -31,6 +31,10 @@ You want to maximize your `profit` by choosing a single day to buy one stock and
 
 Return the maximum `profit` you can achieve from this transaction. If you cannot achieve any `profit`, return `0`.
 
+#### 🟢 Problem 05: [Rotate Array](https://leetcode.com/problems/rotate-array/description/)
+**Description:**  
+Given an integer array `nums`, rotate the array to the right by `k` steps, where `k` is non-negative.
+
 ---
 
 ### 🔹 Two Pointer
