@@ -11,6 +11,7 @@ public:
         {
             if (prices[pointer_left] < prices[pointer_right])
             {
+                curr_profit = prices[pointer_right] - prices[pointer_left];
             }
         }
     }
