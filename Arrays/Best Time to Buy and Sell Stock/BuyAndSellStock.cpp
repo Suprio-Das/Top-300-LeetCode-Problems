@@ -16,6 +16,7 @@ public:
                 {
                     profit = curr_profit;
                 }
+                pointer_right++;
             }
         }
     }
