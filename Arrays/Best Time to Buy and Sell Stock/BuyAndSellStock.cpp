@@ -18,6 +18,9 @@ public:
                 }
                 pointer_right++;
             }
+            else if (prices[pointer_left] > prices[pointer_right])
+            {
+                        }
         }
     }
 };
