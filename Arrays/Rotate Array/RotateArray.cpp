@@ -14,6 +14,7 @@ public:
 
         for (int i = 0; i < size - k; i++)
         {
+            temp.push_back(nums[i]);
         }
     }
 };
