@@ -16,5 +16,7 @@ public:
         {
             temp.push_back(nums[i]);
         }
+
+        nums = temp;
     }
 };
