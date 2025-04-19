@@ -24,6 +24,13 @@ Follow-up: Could you solve the problem in linear time and in `O(1)` space? <br>
 **Description:**  
 Given an integer array `nums` sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in `nums`.
 
+#### 🟢 Problem 04: [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
+**Description:**  
+You are given an array `prices` where `prices[i]` is the price of a given stock on the ith day.
+You want to maximize your `profit` by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.<br>
+
+Return the maximum `profit` you can achieve from this transaction. If you cannot achieve any `profit`, return `0`.
+
 ---
 
 ### 🔹 Two Pointer
