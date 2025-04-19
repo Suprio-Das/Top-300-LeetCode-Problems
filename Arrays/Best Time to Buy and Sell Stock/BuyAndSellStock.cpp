@@ -29,5 +29,6 @@ public:
                 pointer_right++;
             }
         }
+        return profit;
     }
 };
